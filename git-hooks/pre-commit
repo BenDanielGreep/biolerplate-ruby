@@ -1,5 +1,3 @@
-echo 'running file'
-
 #!/bin/sh
 #
 # An example hook script to verify what is about to be committed.
@@ -49,6 +47,7 @@ fi
 
 OUTPUT="$(exec rspec spec)"
 if [[ $OUTPUT =~ "Failure/Error" ]]; then
+
 	exit 1
 fi
 
