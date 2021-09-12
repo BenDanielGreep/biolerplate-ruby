@@ -1,5 +1,5 @@
 class Chatterbox
   def hello_world
-    'Hello Wefeefeorrld'
+    'Hello World'
   end
 end
