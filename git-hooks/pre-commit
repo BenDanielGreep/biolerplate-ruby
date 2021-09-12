@@ -47,10 +47,8 @@ EOF
 	exit 1
 fi
 
-echo 'this is definitely being run potato'
 OUTPUT="$(exec rspec spec)"
 if [[ $OUTPUT =~ "Failure/Error" ]]; then
-	echo 'potato fail by humans'
 	exit 1
 fi
 
