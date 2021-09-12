@@ -1,4 +1,4 @@
-require_relative '../chatterbox'
+require_relative '../lib/chatterbox'
 
 describe Chatterbox do  
   chatterbox = Chatterbox.new
