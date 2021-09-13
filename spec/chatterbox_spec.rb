@@ -1,6 +1,6 @@
 require_relative '../lib/chatterbox'
 
-describe Chatterbox do  
+describe Chatterbox do
   chatterbox = Chatterbox.new
 
   it 'should say hello world' do

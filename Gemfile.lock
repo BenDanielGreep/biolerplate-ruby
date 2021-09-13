@@ -6,9 +6,6 @@ GEM
     parallel (1.20.1)
     parser (3.0.0.0)
       ast (~> 2.4.1)
-    pluginator (1.5.0)
-    pre-commit (0.39.0)
-      pluginator (~> 1.5)
     rainbow (3.0.0)
     regexp_parser (2.1.1)
     rexml (3.1.9)
@@ -43,7 +40,6 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  pre-commit
   rspec
   rubocop
 
