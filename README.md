@@ -1,4 +1,4 @@
-# biolerplate-ruby
+# boilerplate-ruby
 
 ## Setup
 
